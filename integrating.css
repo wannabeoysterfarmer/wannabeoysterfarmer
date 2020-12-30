@@ -16,8 +16,8 @@
 }
 
 @font-face {
-  font-family: Rajani;
-  src: url(Rajdhani/Rajdhani-Light.ttf);
+  font-family: OpenDoor;
+  src: url(Handlee/Handlee-Regular.ttf);
 }
 
 /* About Paragraph Header */
@@ -59,12 +59,14 @@ h4 {
 /* Used for header class */   
 .header {
     overflow: hidden;
-    padding: 6px;
+    padding: 0px;
     background: rgb(0, 0, 0); 
     position: fixed;
     width: 100%;
+    margin:0px; 
     top: 0;
     z-index: 10;
+    
 }
 
 #content {
@@ -72,22 +74,23 @@ h4 {
   z-index: 1;
 }
 
-/* Header links */
+/*  */
 .header a {
   float: left;
   color: white;
   text-align: center;
-  padding: 14px;
+  padding: 8px;
   text-decoration: none;
   font-size: 11px;
   line-height: 25px;
-  border-radius: 4px;
+  border-radius: 10px;
 }
 
 
 /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
 .header a.logo {
-  font-size: 14px;
+  padding: 0px;
+  margin: 0px;
   font-weight: bold;
   color: white;
   font-family: RockSalt;
@@ -99,10 +102,28 @@ h4 {
   color: rgb(124, 124, 124);
 }
 
+.header-left {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 11px;
+  line-height: 25px;
+  border-radius: 10px;
+}
 
 /* Float the link section to the right */
 .header-right {
   float: right;
+  
+  color: white;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 11px;
+  line-height: 25px;
+  border-radius: 10px;
 }
 
 
@@ -121,9 +142,6 @@ h4 {
 
 
 
-
-
-
 /* About Header class - used for the About section */
 .aboutheader {
     top: 10px;
@@ -134,10 +152,10 @@ h4 {
 
 /* class used for the about paragraph words */
 .aboutwords {
-  font-family: Rajani;
-  margin: 4px;
-  size: 10px;
-  color: rgb(255, 255, 255);
+  font-family: OpenDoor;
+  margin: 8px;
+  size: 12px;
+  color: rgb(231, 231, 231);
 }
 
 /* paragraph itself in about section */
@@ -153,6 +171,16 @@ h4 {
     bottom: 10px; 
     text-align: center;  
 }
+
+/* image logo */
+.imglogo {
+  padding: 0px;
+  margin: 0px; 
+  text-align: center;  
+}
+
+/* image logo for whole container of logo */
+
 
 /* about pic */
 .aboutpic {
@@ -350,6 +378,8 @@ h4 {
 
 .gallerybackground {
     background-color:rgba(0, 0, 0, 0.95);
+    padding: 0px;
+    margin: 0px;
 }
 
 
