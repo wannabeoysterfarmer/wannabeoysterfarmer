@@ -198,7 +198,7 @@ h4 {
 
 /* main.html gallery section class */
 .gallerysection {
-  background-color: black;
+  background-color: rgb(255, 255, 255);
   margin: 0px;
   padding: 0px;
 }
@@ -335,7 +335,7 @@ h4 {
 /* Styling the dropdown button */
 .dropbtn {
   background-color: none;
-  color: white;
+  color: rgb(43, 197, 56);
   border: none;
   cursor: pointer;
   bottom: 7px;
@@ -345,7 +345,7 @@ h4 {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(175, 158, 255, 0.6);
   min-width: 150px;
   box-shadow: rgba(17, 17, 17, 0.6);
   z-index: 1;
@@ -353,7 +353,7 @@ h4 {
 
 /* links inside the dropdown */ 
 .dropdown-content a {
-  color: black;
+  color: rgb(206, 70, 70);
   padding: 10px 10px;
   text-decoration: none;
   display: block;
@@ -417,7 +417,7 @@ p {
 
 .firstsection {
   height: 100vh;
-  background-color:black;
+  background-color:rgb(0, 0, 0);
   background-size: cover; 
   background-position-y: -130px;
   margin: 0px;
@@ -711,7 +711,7 @@ body {
   
   /* main.html gallery section class */
   .gallerysection {
-    background-color: black;
+    background-color: rgb(255, 255, 255);
     margin: 0px;
     padding: 0px;
   }
@@ -866,7 +866,7 @@ body {
   
   /* links inside the dropdown */ 
   .dropdown-content a {
-    color: black;
+    color: rgb(255, 255, 255);
     padding: 10px 10px;
     text-decoration: none;
     display: block;
@@ -930,7 +930,7 @@ body {
   
   .firstsection {
     height: 100vh;
-    background-color:black;
+    background-color:rgb(255, 255, 255);
     background-size: cover; 
     background-position-y: -130px;
     margin: 0px;
