@@ -1,3 +1,6 @@
+@media (min-width: 1000px) {
+
+
 .center {
   margin-left: auto;
   margin-right: auto;
@@ -491,4 +494,519 @@ body {
       flex: 100%;
       max-width: 100%;
     }
+
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*mobile and tablet*/
+@media (min-width: 320px) and (max-width: 999px) {
+ 
+  .center {
+    margin-left: auto;
+    margin-right: auto;
+    
   }
+  
+  /* Fonts! */
+  @font-face {
+    font-family: RockSalt;
+    src: url(Rock_Salt/RockSalt-Regular.ttf);
+  }
+  
+  @font-face {
+    font-family: Syncopate;
+    src: url(Syncopate/Syncopate-Regular.ttf);
+  }
+  
+  @font-face {
+    font-family: OpenDoor;
+    src: url(Handlee/Handlee-Regular.ttf);
+  }
+  
+  /* About Paragraph Header */
+  h2 {
+    text-align: center;
+    font-family: RockSalt;
+    size: 28px;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  /* Gallery Section Headings */
+  h3 {
+    align-items: center;
+    position: relative;
+    font-family: Syncopate;
+    font-weight: bold;
+    color: white;
+    opacity: 0.8px;
+    font-size: 14px;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    margin-left: 2%;
+    margin-top: 2%;
+  }
+  
+  /* footnote stuff */ 
+  h4 {
+    position: relative; 
+    text-align: right;
+    right: 20px; 
+    color: white;
+    opacity: 0.4;
+    font-size: 11px;
+  
+  }
+  
+  /* Used for header class */   
+  .header {
+      overflow: hidden;
+      padding: 0px;
+      background: rgb(0, 0, 0); 
+      position: fixed;
+      width: 100%;
+      margin:0px; 
+      top: 0;
+      z-index: 10;
+      
+  }
+  
+  #content {
+    margin-top: 60px;
+    z-index: 1;
+  }
+  
+  /*  */
+  .header a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    text-decoration: none;
+    font-size: 11px;
+    line-height: 25px;
+    border-radius: 10px;
+  }
+  
+  
+  /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+  .header a.logo {
+    padding: 0px;
+    margin: 0px;
+    font-weight: bold;
+    color: white;
+    font-family: RockSalt;
+  }
+  
+  /* Change the background color on mouse-over */
+  .header a:hover {
+    
+    color: rgb(124, 124, 124);
+  }
+  
+  .header-left {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 11px;
+    line-height: 25px;
+    border-radius: 10px;
+  }
+  
+  /* Float the link section to the right */
+  .header-right {
+    float: right;
+    
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 11px;
+    line-height: 25px;
+    border-radius: 10px;
+  }
+  
+  
+  /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+  @media screen and (max-width: 500px) {
+    .header a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .header-right {
+      float: none;
+    }
+  }
+  
+  
+  
+  
+  /* About Header class - used for the About section */
+  .aboutheader {
+      top: 10px;
+      background: rgb(0, 0, 0);
+      margin: 0px;
+      padding: 0px;
+  }
+  
+  /* class used for the about paragraph words */
+  .aboutwords {
+    font-family: OpenDoor;
+    margin: 8px;
+    size: 12px;
+    color: rgb(231, 231, 231);
+  }
+  
+  /* paragraph itself in about section */
+  .aboutparagraph {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  /* image */
+  .img {
+      width: 30px;
+      height: 30px;
+      bottom: 10px; 
+      text-align: center;  
+  }
+  
+  /* image logo */
+  .imglogo {
+    padding: 0px;
+    margin: 0px; 
+    text-align: center;  
+  }
+  
+  /* image logo for whole container of logo */
+  
+  
+  /* about pic */
+  .aboutpic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 146px;
+    height: 130px;
+    padding: 52px;
+  }
+  
+  
+  /* main.html gallery section class */
+  .gallerysection {
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  /* US Railways */
+  .USRailways {
+    position: relative;
+    display: flex;
+  }
+  .USRailways::before {    
+    content: "";
+    background-image: url("Images/USA Railways/Night Runner.jpg");
+    background-size: cover;
+    position: absolute;
+    background-position-y: -580px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.95;
+  }
+   /* US Landscapes */
+   .USLand {
+    position: relative;
+    display: flex;
+  }
+  .USLand::before {    
+    content: "";
+    background-image: url("Images/USA Landscape/Monona Lake.jpg");
+    background-size: cover;
+    position: absolute;
+    background-position-y: -578px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.95;
+  }
+  
+  /* UK Railways */
+  .UKRail {
+    position: relative;
+    display: flex;
+  }
+  .UKRail::before {    
+    content: "";
+    background-image: url("Images/UK Railways/BIL35018(3).jpg");
+    background-size: cover;
+    position: absolute;
+    background-position-y: -444px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.95;
+  }
+  
+  /* UK Landscapes */
+  .UKLand {
+    position: relative;
+    display: flex;
+  }
+  .UKLand::before {    
+    content: "";
+    background-image: url("Images/UK Landscape/Picadilly Circus(2020).jpg");
+    background-size: cover;
+    position: absolute;
+    background-position-y: -170px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.95;
+  }
+  
+  /* Cyberpunk fantasy */
+  .Cyber {
+    position: relative;
+    display: flex;
+  }
+  .Cyber::before {    
+    content: "";
+    background-image: url("Images/Cyberpunk/Light em Up.jpg");
+    background-size: cover;
+    position: absolute;
+    background-position-y: -318px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.95;
+  }
+  
+  /* videography */
+  .Video {
+    position: relative;
+    display: flex;
+  }
+  .Video::before {    
+    content: "";
+    background-image: url("Images/Drone Vids/Screen Shot 2020-12-23 at 4.54.31 PM.png");
+    background-size: cover;
+    position: absolute;
+    background-position-y: -318px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.8;
+  }
+  
+  .showings {
+    background-color: black;
+  }
+  
+  
+  
+  
+  
+  
+  
+  /* dropdown stuff */
+  
+  .dropdownletters {
+    font-size: 10px;
+  }
+  
+  /* Main dropdown button */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Styling the dropdown button */
+  .dropbtn {
+    background-color: none;
+    color: white;
+    border: none;
+    cursor: pointer;
+    bottom: 7px;
+  }
+  
+  /* dropdown content hidden by default */ 
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.6);
+    min-width: 150px;
+    box-shadow: rgba(17, 17, 17, 0.6);
+    z-index: 1;
+  }
+  
+  /* links inside the dropdown */ 
+  .dropdown-content a {
+    color: black;
+    padding: 10px 10px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* change color of dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: rgba(17, 17, 17, 0.6);
+  }
+  
+  /* show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Change background color of dropdown button when options are shown */
+  .dropdown:hover .dropbtn {
+    background: none;
+  }
+  
+  
+  .galleries {
+      background-color: rgba(0, 0, 0, 0.95);
+  }
+  
+  .gallerybackground {
+      background-color:rgba(0, 0, 0, 0.95);
+      padding: 0px;
+      margin: 0px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  p {
+      margin: 0px;
+      padding: 0px;
+      text-align: left;
+  }
+  
+  #underexplore:hover {
+    background: rgba(17, 17, 17, 0.6);
+    padding: 14px;
+    
+    font: 16px;
+  }
+  
+  
+  #explorenow {
+      align-items: center;
+      font-family: fantasy;
+      color: rgb(255, 255, 255);
+      font-size: 28px;
+      text-decoration: none;
+      bottom: 50px;
+      background: rgba(17, 17, 17, 0.0);
+  }
+  
+  .firstsection {
+    height: 100vh;
+    background-color:black;
+    background-size: cover; 
+    background-position-y: -130px;
+    margin: 0px;
+  }
+  
+  #sectiontwo {
+    background: rgba(0, 0, 0, 0.95);
+  }
+  a {
+      position: relative; 
+      color: ghostwhite; 
+      text-align: center;
+      font-size: 12px;
+      font-family: Syncopate;
+      text-decoration: none;
+  }
+  
+  
+  /* color picker from google will allow the values. */
+  img {position: relative; text-align: center;}
+  
+  tr {position: relative;}
+  th, td {
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      position: relative; 
+      padding: 6px;
+      color: white;
+      font-size: 15px;
+  }
+  body {
+    margin:0px;
+  }
+  
+  
+  
+  /* Gallery Image Classes */ 
+  
+  /* --- - - - - - - - - -- - - - - - -- - - - -- - -  */
+  
+  .row {
+      display: flex;
+      flex-wrap: wrap;
+      
+    }
+    
+    /* Create four equal columns that sits next to each other */
+    .column {
+      flex: 25%;
+      max-width: 25%;
+      padding: 0px;
+    }
+    
+    .column img {
+      margin-top: 0px;
+      vertical-align: middle;
+      width: 100%;
+    }
+  
+    .nocursor {
+      cursor: default;
+    }
+    
+    /* Responsive layout - makes a two column-layout instead of four columns */
+    @media screen and (max-width: 800px) {
+      .column {
+        flex: 33%;
+        max-width: 33%;
+      }
+    }
+    
+    /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 600px) {
+      .column {
+        flex: 100%;
+        max-width: 100%;
+      }
+
+    
+}
