@@ -143,8 +143,6 @@ h4 {
 }
 
 
-
-
 /* About Header class - used for the About section */
 .aboutheader {
     top: 10px;
@@ -272,7 +270,7 @@ h4 {
 }
 
 .gallerybackground {
-    background-color:rgba(0, 0, 0, 0.95);
+    background-color:rgba(40, 40, 40);
     padding: 0px;
     margin: 0px;
 }
