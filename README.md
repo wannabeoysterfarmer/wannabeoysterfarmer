@@ -1,7 +1,5 @@
 ### Hi there 👋
 
-The repo - wannabeoysterfarmer - is for a personal art portfolio. 
-
 <!--
 **wannabeoysterfarmer/wannabeoysterfarmer** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 

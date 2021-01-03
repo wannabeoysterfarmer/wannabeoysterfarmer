@@ -148,7 +148,7 @@ h4 {
 /* About Header class - used for the About section */
 .aboutheader {
     top: 10px;
-    background: rgb(0, 0, 0);
+    background: rgb(40, 40, 40);
     margin: 0px;
     padding: 0px;
 }
@@ -202,116 +202,8 @@ h4 {
   margin: 0px;
   padding: 0px;
 }
-
-/* US Railways */
-.USRailways {
-  position: relative;
-  display: flex;
-}
-.USRailways::before {    
-  content: "";
-  background-image: url("Images/USA Railways/Night Runner.jpg");
-  background-size: cover;
-  position: absolute;
-  background-position-y: -580px;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  opacity: 0.95;
-}
- /* US Landscapes */
- .USLand {
-  position: relative;
-  display: flex;
-}
-.USLand::before {    
-  content: "";
-  background-image: url("Images/USA Landscape/Monona Lake.jpg");
-  background-size: cover;
-  position: absolute;
-  background-position-y: -578px;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  opacity: 0.95;
-}
-
-/* UK Railways */
-.UKRail {
-  position: relative;
-  display: flex;
-}
-.UKRail::before {    
-  content: "";
-  background-image: url("Images/UK Railways/BIL35018(3).jpg");
-  background-size: cover;
-  position: absolute;
-  background-position-y: -444px;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  opacity: 0.95;
-}
-
-/* UK Landscapes */
-.UKLand {
-  position: relative;
-  display: flex;
-}
-.UKLand::before {    
-  content: "";
-  background-image: url("Images/UK Landscape/Picadilly Circus(2020).jpg");
-  background-size: cover;
-  position: absolute;
-  background-position-y: -170px;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  opacity: 0.95;
-}
-
-/* Cyberpunk fantasy */
-.Cyber {
-  position: relative;
-  display: flex;
-}
-.Cyber::before {    
-  content: "";
-  background-image: url("Images/Cyberpunk/Light em Up.jpg");
-  background-size: cover;
-  position: absolute;
-  background-position-y: -318px;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  opacity: 0.95;
-}
-
-/* videography */
-.Video {
-  position: relative;
-  display: flex;
-}
-.Video::before {    
-  content: "";
-  background-image: url("Images/Drone Vids/Screen Shot 2020-12-23 at 4.54.31 PM.png");
-  background-size: cover;
-  position: absolute;
-  background-position-y: -318px;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  opacity: 0.8;
-}
-
 .showings {
-  background-color: black;
+  background-color: rgb(60, 60, 60);
 }
 
 
@@ -496,7 +388,104 @@ body {
     }
 
 }
- 
+
+/* contact page*/
+.sectionff {
+  height: 100vh;
+  width: 100%;
+  background-color:rgb(20, 20, 20);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.containerff {
+  width: 90%;
+  max-width: 500px;
+  margin: 6px;
+  padding: 30px;
+  
+  background-color: rgb(40, 40, 40);
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+.labelff {
+  width: 100%;
+  margin-top: 8px;
+  font-size: 20px;
+}
+.labelff input,
+.labelff textarea {
+  width: 100%;
+  padding: 6px;
+  font-size: 12px;
+  border: 1px solid rgba(0, 0, 0, 0.199);
+  margin-top: 6px;
+  
+}
+
+textarea {
+  resize: vertical;
+}
+button[type="submit"] {
+  width: 20%;
+  border: none;
+  outline: none;
+  padding: 6px;
+  font-size: 24px;
+  border-radius: 8px;
+  font-family: "Montserrat";
+  text-align: center;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: 0.3s ease background-color;
+}
+button[type="submit"]:hover {
+  background-color: rgb(133, 240, 147);
+}
+#status {
+  width: 90%;
+  max-width: 500px;
+  text-align: center;
+  padding: 10px;
+  margin: 0 auto;
+  border-radius: 8px;
+}
+#status.success {
+  background-color: rgb(211, 250, 153);
+  animation: status 4s ease forwards;
+}
+#status.error {
+  background-color: rgb(250, 129, 92);
+  color: white;
+  animation: status 4s ease forwards;
+}
+@keyframes status {
+  0% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  90% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  100% {
+    opacity: 0;
+    pointer-events: none;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -540,7 +529,7 @@ body {
   h2 {
     text-align: center;
     font-family: RockSalt;
-    size: 28px;
+    size: 10px;
     margin: 0px;
     padding: 0px;
   }
@@ -582,6 +571,7 @@ body {
       margin:0px; 
       top: 0;
       z-index: 10;
+      
       
   }
   
@@ -714,114 +704,9 @@ body {
     background-color: rgb(255, 255, 255);
     margin: 0px;
     padding: 0px;
+    
   }
   
-  /* US Railways */
-  .USRailways {
-    position: relative;
-    display: flex;
-  }
-  .USRailways::before {    
-    content: "";
-    background-image: url("Images/USA Railways/Night Runner.jpg");
-    background-size: cover;
-    position: absolute;
-    background-position-y: -580px;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    opacity: 0.95;
-  }
-   /* US Landscapes */
-   .USLand {
-    position: relative;
-    display: flex;
-  }
-  .USLand::before {    
-    content: "";
-    background-image: url("Images/USA Landscape/Monona Lake.jpg");
-    background-size: cover;
-    position: absolute;
-    background-position-y: -578px;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    opacity: 0.95;
-  }
-  
-  /* UK Railways */
-  .UKRail {
-    position: relative;
-    display: flex;
-  }
-  .UKRail::before {    
-    content: "";
-    background-image: url("Images/UK Railways/BIL35018(3).jpg");
-    background-size: cover;
-    position: absolute;
-    background-position-y: -444px;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    opacity: 0.95;
-  }
-  
-  /* UK Landscapes */
-  .UKLand {
-    position: relative;
-    display: flex;
-  }
-  .UKLand::before {    
-    content: "";
-    background-image: url("Images/UK Landscape/Picadilly Circus(2020).jpg");
-    background-size: cover;
-    position: absolute;
-    background-position-y: -170px;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    opacity: 0.95;
-  }
-  
-  /* Cyberpunk fantasy */
-  .Cyber {
-    position: relative;
-    display: flex;
-  }
-  .Cyber::before {    
-    content: "";
-    background-image: url("Images/Cyberpunk/Light em Up.jpg");
-    background-size: cover;
-    position: absolute;
-    background-position-y: -318px;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    opacity: 0.95;
-  }
-  
-  /* videography */
-  .Video {
-    position: relative;
-    display: flex;
-  }
-  .Video::before {    
-    content: "";
-    background-image: url("Images/Drone Vids/Screen Shot 2020-12-23 at 4.54.31 PM.png");
-    background-size: cover;
-    position: absolute;
-    background-position-y: -318px;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    opacity: 0.8;
-  }
   
   .showings {
     background-color: black;
