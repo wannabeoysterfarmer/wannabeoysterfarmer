@@ -20,14 +20,14 @@
 
 @font-face {
   font-family: OpenDoor;
-  src: url(Handlee/Handlee-Regular.ttf);
+  src: url(Roboto/Roboto-Light.ttf);
 }
 
 /* About Paragraph Header */
 h2 {
   text-align: center;
-  font-family: RockSalt;
-  size: 28px;
+  font-family: Syncopate;
+  font-size: 11px;
   margin: 0px;
   padding: 0px;
 }
@@ -160,7 +160,7 @@ html {
 .aboutwords {
   font-family: OpenDoor;
   margin: 8px;
-  size: 12px;
+  size: 6px;
   color: rgb(231, 231, 231);
 }
 
@@ -476,7 +476,7 @@ button[type="submit"]:hover {
   padding: 6px; 
   height: 90px; 
   width: 240px; 
-  background-color: rgb(80, 80, 80);
+  background-color: rgb(33, 84, 119);
   border-radius: 20px;
 }
 
@@ -662,7 +662,7 @@ button[type="submit"]:hover {
   .aboutwords {
     font-family: OpenDoor;
     margin: 8px;
-    size: 12px;
+    size: 10px;
     color: rgb(231, 231, 231);
   }
   
@@ -868,17 +868,17 @@ button[type="submit"]:hover {
       flex: 25%;
       max-width: 25%;
       padding: 0px;
+      
     }
-    
+
     .column img {
       margin-top: 0px;
       vertical-align: middle;
       width: 100%;
+      
     }
-  
-    .nocursor {
-      cursor: default;
-    }
+
+
     
     /* Responsive layout - makes a two column-layout instead of four columns */
     @media screen and (max-width: 800px) {
