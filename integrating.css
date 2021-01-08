@@ -23,6 +23,7 @@
   src: url(Roboto/Roboto-Light.ttf);
 }
 
+
 /* About Paragraph Header */
 h2 {
   text-align: center;
@@ -116,7 +117,7 @@ html {
   text-align: center;
   padding: 9px;
   text-decoration: none;
-  font-size: 11px;
+  font-size: 12px;
   line-height: 25px;
   border-radius: 10px;
 }
@@ -160,7 +161,7 @@ html {
 .aboutwords {
   font-family: OpenDoor;
   margin: 8px;
-  size: 6px;
+  font-size: 14px;
   color: rgb(231, 231, 231);
 }
 
