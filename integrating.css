@@ -1,116 +1,88 @@
 @media (min-width: 1000px) {
-
-
-.center {
-  margin-left: auto;
-  margin-right: auto;
-  
-}
-
 /* Fonts! */
 @font-face {
   font-family: RockSalt;
   src: url(Rock_Salt/RockSalt-Regular.ttf);
 }
-
 @font-face {
   font-family: Syncopate;
   src: url(Syncopate/Syncopate-Regular.ttf);
 }
-
 @font-face {
   font-family: OpenDoor;
   src: url(Roboto/Roboto-Light.ttf);
 }
-
-
-/* About Paragraph Header */
-h2 {
-  text-align: center;
-  font-family: Syncopate;
-  font-size: 11px;
-  margin: 0px;
-  padding: 0px;
-}
-
-/* Gallery Section Headings */
-h3 {
-  align-items: center;
-  position: relative;
-  font-family: Syncopate;
-  font-weight: bold;
-  color: white;
-  opacity: 0.8px;
-  font-size: 14px;
-  padding: 0px;
-  margin: 0px;
-  text-align: center;
-  margin-left: 2%;
-  margin-top: 2%;
-}
-
-/* footnote stuff */ 
-h4 {
-  position: relative; 
-  text-align: right;
-  right: 20px; 
-  color: white;
-  opacity: 0.4;
-  font-size: 11px;
-
-}
-
 html {
   background-color: rgb(0, 0, 0, 0.75);
 }
-
+/* centering things */
+.center {
+  margin-left: auto; 
+  margin-right: auto;
+}
+/* Header for titles and headings in title */
+h2 {
+  text-align: center; 
+  font-family: Syncopate; 
+  font-size: 11px; 
+  margin: 0px; 
+  padding: 0px;
+}
+/* Contact section headings */
+h3 {
+  align-items: center; 
+  position: relative; 
+  font-family: Syncopate; 
+  font-weight: bold; 
+  color: white;
+  opacity: 0.8px; 
+  font-size: 14px; 
+  padding: 0px; 
+  margin: 0px; 
+  text-align: center; 
+  margin-left: 2%;
+  margin-top: 2%;
+}
 /* Used for header class */   
 .header {
-    overflow: hidden;
-    padding: 0px;
-    background: rgb(0, 0, 0, 0.75); 
-    position: fixed;
-    width: 100%;
-    margin:0px; 
-    top: 0;
-    z-index: 6;
-    
+  overflow: hidden; 
+  padding: 0px; 
+  background: rgb(0, 0, 0, 0.75); 
+  position: fixed; 
+  width: 100%;
+  margin:0px; 
+  top: 0; 
+  z-index: 6;
 }
-
 #content {
-  margin-top: 60px;
-  z-index: 1;
+  margin-top: 60px; 
+  z-index: 1; 
   background-color: rgb(0, 0, 0);
 }
-
-/*  */
 .header a {
-  float: left;
-  color: white;
-  text-align: center;
-  padding: 8px;
-  text-decoration: none;
-  font-size: 11px;
-  line-height: 25px;
+  float: left; 
+  color: white; 
+  text-align: center; 
+  padding: 8px; 
+  text-decoration: none; 
+  font-size: 10px;
+  line-height: 25px; 
   border-radius: 10px;
 }
-
-
-/* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+/* Header left logo*/
 .header a.logo {
-  padding: 0px;
-  margin: 0px;
-  font-weight: bold;
-  color: white;
+  padding: 0px; 
+  margin: 0px; 
+  font-weight: bold; 
+  color: white; 
   font-family: RockSalt;
 }
-
-/* Change the background color on mouse-over */
+/* Change the background color of header right text on hover */
 .header a:hover {
-  
+  text-decoration: underline;
   color: rgb(124, 124, 124);
 }
-
+/* left side of header */
 .header-left {
   float: left;
   color: white;
@@ -121,42 +93,24 @@ html {
   line-height: 25px;
   border-radius: 10px;
 }
-
 /* Float the link section to the right */
 .header-right {
   float: right;
-  
   color: white;
   text-align: center;
   padding: 10px;
   text-decoration: none;
-  font-size: 11px;
+  font-size: 12px;
   line-height: 25px;
   border-radius: 10px;
 }
-
-
-/* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
-@media screen and (max-width: 500px) {
-  .header a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-  .header-right {
-    float: none;
-  }
-}
-
-
 /* About Header class - used for the About section */
 .aboutheader {
-    top: 10px;
-    background: rgb(40, 40, 40);
-    margin: 0px;
-    padding: 0px;
+  top: 10px;
+  background: rgb(40, 40, 40);
+  margin: 0px;
+  padding: 0px;
 }
-
 /* class used for the about paragraph words */
 .aboutwords {
   font-family: OpenDoor;
@@ -164,31 +118,24 @@ html {
   font-size: 14px;
   color: rgb(231, 231, 231);
 }
-
 /* paragraph itself in about section */
 .aboutparagraph {
   margin: 0px;
   padding: 0px;
 }
-
 /* image */
 .img {
-    width: 30px;
-    height: 30px;
-    bottom: 10px; 
-    text-align: center;  
+  width: 30px;
+  height: 30px;
+  bottom: 10px; 
+  text-align: center;  
 }
-
 /* image logo */
 .imglogo {
   padding: 0px;
   margin: 0px; 
   text-align: center;  
 }
-
-/* image logo for whole container of logo */
-
-
 /* about pic */
 .aboutpic {
   display: block;
@@ -198,290 +145,87 @@ html {
   height: 130px;
   padding: 52px;
 }
-
-
 /* main.html gallery section class */
 .gallerysection {
   background-color: rgb(0, 0, 0);
   margin: 0px;
   padding: 0px;
 }
+/* showings background color */
 .showings {
   background-color: rgb(60, 60, 60);
 }
-
-
-
-
-
-
-
-/* dropdown stuff */
-
-.dropdownletters {
-  font-size: 10px;
-}
-
-/* Main dropdown button */
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-/* Styling the dropdown button */
-.dropbtn {
-  background-color: none;
-  color: rgb(43, 197, 56);
-  border: none;
-  cursor: pointer;
-  bottom: 7px;
-}
-
-/* dropdown content hidden by default */ 
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: rgba(175, 158, 255, 0.6);
-  min-width: 150px;
-  box-shadow: rgba(17, 17, 17, 0.6);
-  z-index: 1;
-}
-
-/* links inside the dropdown */ 
-.dropdown-content a {
-  color: rgb(206, 70, 70);
-  padding: 10px 10px;
-  text-decoration: none;
-  display: block;
-}
-
-/* change color of dropdown links on hover */
-.dropdown-content a:hover {
-  background-color: rgba(17, 17, 17, 0.6);
-}
-
-/* show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-/* Change background color of dropdown button when options are shown */
-.dropdown:hover .dropbtn {
-  background: none;
-}
-
-
-.galleries {
-    background-color: rgba(0, 0, 0);
-}
-
 .gallerybackground {
-    background-color:rgba(0, 0, 0);
-    padding: 0px;
-    margin: 0px;
+  background-color:rgba(0, 0, 0);
+  padding: 0px;
+  margin: 0px;
 }
-
-
-
-
-
-
-
-
-
 p {
-    margin: 0px;
-    padding: 0px;
-    text-align: left;
+  margin: 0px;
+  padding: 0px;
+  text-align: left;
 }
-
-#underexplore:hover {
-  background: rgba(17, 17, 17, 0.6);
-  padding: 14px;
-  
-  font: 16px;
-}
-
-
 .firstsection {
-  
   background-color:rgb(0, 0, 0);
   background-size: cover; 
-
 }
 
 #sectiontwo {
   background: rgba(0, 0, 0, 0.95);
 }
 a {
-    position: relative; 
-    color: ghostwhite; 
-    text-align: center;
-    font-size: 12px;
-    font-family: Syncopate;
-    text-decoration: none;
+  position: relative; 
+  color: ghostwhite; 
+  text-align: center;
+  font-size: 12px;
+  font-family: Syncopate;
+  text-decoration: none;
 }
-
-
-/* color picker from google will allow the values. */
-img {position: relative; text-align: center;}
-
 tr {position: relative;}
 th, td {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    position: relative; 
-    padding: 6px;
-    color: white;
-    font-size: 15px;
+  position: relative; 
+  padding: 6px;
+  color: white;
+  font-size: 15px;
 }
 body {
   margin:0px;
 }
-
-
-
 /* Gallery Image Classes */ 
-
 /* --- - - - - - - - - -- - - - - - -- - - - -- - -  */
-
 .row {
-    display: flex;
-    flex-wrap: wrap;
-    
-  }
-  
-  /* Create four equal columns that sits next to each other */
-  .column {
-    flex: 25%;
-    max-width: 25%;
-    padding: 0px;
-  }
-  
-  .column img {
-    margin-top: 0px;
-    vertical-align: middle;
-    width: 100%;
-  }
-
-  .nocursor {
-    
-  }
-
-  .nocursor:hover {
-    color: rgb(0, 0, 0);
-  }
-  
-  /* Responsive layout - makes a two column-layout instead of four columns */
-  @media screen and (max-width: 800px) {
-    .column {
-      flex: 33%;
-      max-width: 33%;
-    }
-  }
-  
-  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
-    .column {
-      flex: 100%;
-      max-width: 100%;
-    }
-
-}
-
-/* contact page*/
-.sectionff {
-  height: 30vh;
-  background-color:rgb(20, 20, 20);
   display: flex;
-  align-items: center;
-  flex-direction: column;
+  flex-wrap: wrap;
 }
-.containerff {
-  width: 90%;
-  max-width: 500px;
-  margin: 6px;
-  padding: 30px;
-  
-  background-color: rgb(40, 40, 40);
-  border-radius: 20px;
-  margin-bottom: 20px;
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0px;
 }
-.labelff {
+.column img {
+  margin-top: 0px;
+  vertical-align: middle;
   width: 100%;
-  margin-top: 8px;
-  font-size: 20px;
 }
-.labelff input,
-.labelff textarea {
-  width: 100%;
-  padding: 6px;
-  font-size: 12px;
-  border: 1px solid rgba(0, 0, 0, 0.199);
-  margin-top: 6px;
-  
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+.column {
+  flex: 33%;
+  max-width: 33%;
 }
-
-textarea {
-  resize: vertical;
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+.column {
+  flex: 100%;
+  max-width: 100%;
 }
-button[type="submit"] {
-  width: 20%;
-  border: none;
-  outline: none;
-  padding: 6px;
-  font-size: 24px;
-  border-radius: 8px;
-  font-family: "Montserrat";
-  text-align: center;
-  cursor: pointer;
-  margin-top: 10px;
-  transition: 0.3s ease background-color;
+/* contact page*/
+.containercontact2 {
+  margin: 40px;
+  background-color: white;
 }
-button[type="submit"]:hover {
-  background-color: rgb(133, 240, 147);
 }
-#status {
-  width: 90%;
-  max-width: 500px;
-  text-align: center;
-  padding: 10px;
-  margin: 0 auto;
-  border-radius: 8px;
-}
-#status.success {
-  background-color: rgb(211, 250, 153);
-  animation: status 4s ease forwards;
-}
-#status.error {
-  background-color: rgb(250, 129, 92);
-  color: white;
-  animation: status 4s ease forwards;
-}
-@keyframes status {
-  0% {
-    opacity: 1;
-    pointer-events: all;
-  }
-  90% {
-    opacity: 1;
-    pointer-events: all;
-  }
-  100% {
-    opacity: 0;
-    pointer-events: none;
-  }
-}
-
-.containercontact {
-  margin: 20px; 
-  padding: 6px; 
-  height: 90px; 
-  width: 240px; 
-  background-color: rgb(33, 84, 119);
-  border-radius: 20px;
-}
-
-
 
 
 
@@ -505,396 +249,231 @@ button[type="submit"]:hover {
 
 /*mobile and tablet*/
 @media (min-width: 320px) and (max-width: 999px) {
- 
-  .center {
-    margin-left: auto;
-    margin-right: auto;
-    
-  }
-  
   /* Fonts! */
-  @font-face {
-    font-family: RockSalt;
-    src: url(Rock_Salt/RockSalt-Regular.ttf);
-  }
-  
-  @font-face {
-    font-family: Syncopate;
-    src: url(Syncopate/Syncopate-Regular.ttf);
-  }
-  
-  @font-face {
-    font-family: OpenDoor;
-    src: url(Handlee/Handlee-Regular.ttf);
-  }
-  
-  /* About Paragraph Header */
-  h2 {
-    text-align: center;
-    font-family: RockSalt;
-    size: 10px;
-    margin: 0px;
-    padding: 0px;
-  }
-  
-  /* Gallery Section Headings */
-  h3 {
-    align-items: center;
-    position: relative;
-    font-family: Syncopate;
-    font-weight: bold;
-    color: white;
-    opacity: 0.8px;
-    font-size: 14px;
-    padding: 0px;
-    margin: 0px;
-    text-align: center;
-    margin-left: 2%;
-    margin-top: 2%;
-  }
-  
-  /* footnote stuff */ 
-  h4 {
-    position: relative; 
-    text-align: right;
-    right: 20px; 
-    color: white;
-    opacity: 0.4;
-    font-size: 11px;
-  
-  }
-  
-  /* Used for header class */   
-  .header {
-      overflow: hidden;
-      padding: 0px;
-      background: rgb(0, 0, 0); 
-      position: fixed;
-      width: 100%;
-      margin:0px; 
-      top: 0;
-      z-index: 10;
-      
-      
-  }
-  
-  #content {
-    margin-top: 60px;
-    z-index: 1;
-  }
-  
-  /*  */
-  .header a {
-    float: left;
-    color: white;
-    text-align: center;
-    padding: 8px;
-    text-decoration: none;
-    font-size: 11px;
-    line-height: 25px;
-    border-radius: 10px;
-  }
-  
-  
-  /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
-  .header a.logo {
-    padding: 0px;
-    margin: 0px;
-    font-weight: bold;
-    color: white;
-    font-family: RockSalt;
-  }
-  
-  /* Change the background color on mouse-over */
-  .header a:hover {
-    
-    color: rgb(124, 124, 124);
-  }
-  
-  .header-left {
-    float: left;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    text-decoration: none;
-    font-size: 11px;
-    line-height: 25px;
-    border-radius: 10px;
-  }
-  
-  /* Float the link section to the right */
-  .header-right {
-    float: right;
-    
-    color: white;
-    text-align: center;
-    padding: 10px;
-    text-decoration: none;
-    font-size: 11px;
-    line-height: 25px;
-    border-radius: 10px;
-  }
-  
-  
-  /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
-  @media screen and (max-width: 500px) {
-    .header a {
-      float: none;
-      display: block;
-      text-align: left;
-    }
-    .header-right {
-      float: none;
-    }
-  }
-  
-  
-  
-  
-  /* About Header class - used for the About section */
-  .aboutheader {
-      top: 10px;
-      background: rgb(0, 0, 0);
-      margin: 0px;
-      padding: 0px;
-  }
-  
-  /* class used for the about paragraph words */
-  .aboutwords {
-    font-family: OpenDoor;
-    margin: 8px;
-    size: 10px;
-    color: rgb(231, 231, 231);
-  }
-  
-  /* paragraph itself in about section */
-  .aboutparagraph {
-    margin: 0px;
-    padding: 0px;
-  }
-  
-  /* image */
-  .img {
-      width: 30px;
-      height: 30px;
-      bottom: 10px; 
-      text-align: center;  
-  }
-  
-  /* image logo */
-  .imglogo {
-    padding: 0px;
-    margin: 0px; 
-    text-align: center;  
-  }
-  
-  /* image logo for whole container of logo */
-  
-  
-  /* about pic */
-  .aboutpic {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 146px;
-    height: 130px;
-    padding: 52px;
-  }
-  
-  
-  /* main.html gallery section class */
-  .gallerysection {
-    background-color: rgb(255, 255, 255);
-    margin: 0px;
-    padding: 0px;
-    
-  }
-  
-  
-  .showings {
-    background-color: black;
-  }
-  
-  
-  
-  
-  
-  
-  
-  /* dropdown stuff */
-  
-  .dropdownletters {
-    font-size: 10px;
-  }
-  
-  /* Main dropdown button */
-  .dropdown {
-    position: relative;
-    display: inline-block;
-  }
-  
-  /* Styling the dropdown button */
-  .dropbtn {
-    background-color: none;
-    color: white;
-    border: none;
-    cursor: pointer;
-    bottom: 7px;
-  }
-  
-  /* dropdown content hidden by default */ 
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: rgba(255, 255, 255, 0.6);
-    min-width: 150px;
-    box-shadow: rgba(17, 17, 17, 0.6);
-    z-index: 1;
-  }
-  
-  /* links inside the dropdown */ 
-  .dropdown-content a {
-    color: rgb(255, 255, 255);
-    padding: 10px 10px;
-    text-decoration: none;
-    display: block;
-  }
-  
-  /* change color of dropdown links on hover */
-  .dropdown-content a:hover {
-    background-color: rgba(17, 17, 17, 0.6);
-  }
-  
-  /* show the dropdown menu on hover */
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
-  
-  /* Change background color of dropdown button when options are shown */
-  .dropdown:hover .dropbtn {
-    background: none;
-  }
-  
-  
-  .galleries {
-      background-color: rgba(0, 0, 0, 0.95);
-  }
-  
-  .gallerybackground {
-      background-color:rgba(0, 0, 0, 0.95);
-      padding: 0px;
-      margin: 0px;
-  }
-  
-  
-  
-  
-  
-  
-  
-  p {
-      margin: 0px;
-      padding: 0px;
-      text-align: left;
-  }
-  
-  #underexplore:hover {
-    background: rgba(17, 17, 17, 0.6);
-    padding: 14px;
-    
-    font: 16px;
-  }
-  
-  
-  #explorenow {
-      align-items: center;
-      font-family: fantasy;
-      color: rgb(255, 255, 255);
-      font-size: 28px;
-      text-decoration: none;
-      bottom: 50px;
-      background: rgba(17, 17, 17, 0.0);
-  }
-  
-  .firstsection {
-    height: 100vh;
-    background-color:rgb(255, 255, 255);
-    background-size: cover; 
-    background-position-y: -130px;
-    margin: 0px;
-  }
-  
-  #sectiontwo {
-    background: rgba(0, 0, 0, 0.95);
-  }
-  a {
-      position: relative; 
-      color: ghostwhite; 
-      text-align: center;
-      font-size: 12px;
-      font-family: Syncopate;
-      text-decoration: none;
-  }
-  
-  
-  /* color picker from google will allow the values. */
-  img {position: relative; text-align: center;}
-  
-  tr {position: relative;}
-  th, td {
-      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-      position: relative; 
-      padding: 6px;
-      color: white;
-      font-size: 15px;
-  }
-  body {
-    margin:0px;
-  }
-  
-  
-  
-  /* Gallery Image Classes */ 
-  
-  /* --- - - - - - - - - -- - - - - - -- - - - -- - -  */
-  
-  .row {
-      display: flex;
-      flex-wrap: wrap;
-      
-    }
-    
-    /* Create four equal columns that sits next to each other */
-    .column {
-      flex: 25%;
-      max-width: 25%;
-      padding: 0px;
-      
-    }
+@font-face {
+  font-family: RockSalt;
+  src: url(Rock_Salt/RockSalt-Regular.ttf);
+}
+@font-face {
+  font-family: Syncopate;
+  src: url(Syncopate/Syncopate-Regular.ttf);
+}
+@font-face {
+  font-family: OpenDoor;
+  src: url(Roboto/Roboto-Light.ttf);
+}
+html {
+  background-color: rgb(0, 0, 0, 0.75);
+}
+/* centering things */
+.center {
+  margin-left: auto; 
+  margin-right: auto;
+}
+/* Header for titles and headings in title */
+h2 {
+  text-align: center; 
+  font-family: Syncopate; 
+  font-size: 11px; 
+  margin: 0px; 
+  padding: 0px;
+}
+/* Contact section headings */
+h3 {
+  align-items: center; 
+  position: relative; 
+  font-family: Syncopate; 
+  font-weight: bold; 
+  color: white;
+  opacity: 0.8px; 
+  font-size: 14px; 
+  padding: 0px; 
+  margin: 0px; 
+  text-align: center; 
+  margin-left: 2%;
+  margin-top: 2%;
+}
+/* Used for header class */   
+.header {
+  overflow: hidden; 
+  padding: 0px; 
+  background: rgb(0, 0, 0, 0.75); 
+  position: fixed; 
+  width: 100%;
+  margin:0px; 
+  top: 0; 
+  z-index: 6;
+}
+#content {
+  margin-top: 60px; 
+  z-index: 1; 
+  background-color: rgb(0, 0, 0);
+}
+.header a {
+  float: left; 
+  color: white; 
+  text-align: center; 
+  padding: 8px; 
+  text-decoration: none; 
+  font-size: 10px;
+  line-height: 25px; 
+  border-radius: 10px;
+}
+/* Header left logo*/
+.header a.logo {
+  padding: 0px; 
+  margin: 0px; 
+  font-weight: bold; 
+  color: white; 
+  font-family: RockSalt;
+}
+/* Change the background color of header right text on hover */
+.header a:hover {
+  text-decoration: underline;
+  color: rgb(124, 124, 124);
+}
+/* left side of header */
+.header-left {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 9px;
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 25px;
+  border-radius: 10px;
+}
+/* Float the link section to the right */
+.header-right {
+  float: right;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 25px;
+  border-radius: 10px;
+}
+/* About Header class - used for the About section */
+.aboutheader {
+  top: 10px;
+  background: rgb(40, 40, 40);
+  margin: 0px;
+  padding: 0px;
+}
+/* class used for the about paragraph words */
+.aboutwords {
+  font-family: OpenDoor;
+  margin: 8px;
+  font-size: 14px;
+  color: rgb(231, 231, 231);
+}
+/* paragraph itself in about section */
+.aboutparagraph {
+  margin: 0px;
+  padding: 0px;
+}
+/* image */
+.img {
+  width: 30px;
+  height: 30px;
+  bottom: 10px; 
+  text-align: center;  
+}
+/* image logo */
+.imglogo {
+  padding: 0px;
+  margin: 0px; 
+  text-align: center;  
+}
+/* about pic */
+.aboutpic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 146px;
+  height: 130px;
+  padding: 52px;
+}
+/* main.html gallery section class */
+.gallerysection {
+  background-color: rgb(0, 0, 0);
+  margin: 0px;
+  padding: 0px;
+}
+/* showings background color */
+.showings {
+  background-color: rgb(60, 60, 60);
+}
+.gallerybackground {
+  background-color:rgba(0, 0, 0);
+  padding: 0px;
+  margin: 0px;
+}
+p {
+  margin: 0px;
+  padding: 0px;
+  text-align: left;
+}
+.firstsection {
+  background-color:rgb(0, 0, 0);
+  background-size: cover; 
+}
 
-    .column img {
-      margin-top: 0px;
-      vertical-align: middle;
-      width: 100%;
-      
-    }
+#sectiontwo {
+  background: rgba(0, 0, 0, 0.95);
+}
+a {
+  position: relative; 
+  color: ghostwhite; 
+  text-align: center;
+  font-size: 12px;
+  font-family: Syncopate;
+  text-decoration: none;
+}
+tr {position: relative;}
+th, td {
+  position: relative; 
+  padding: 6px;
+  color: white;
+  font-size: 15px;
+}
+body {
+  margin:0px;
+}
+/* Gallery Image Classes */ 
+/* --- - - - - - - - - -- - - - - - -- - - - -- - -  */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0px;
+}
+.column img {
+  margin-top: 0px;
+  vertical-align: middle;
+  width: 100%;
+}
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+.column {
+  flex: 33%;
+  max-width: 33%;
+}
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+.column {
+  flex: 100%;
+  max-width: 100%;
+}
+/* contact page*/
+.containercontact2 {
+  margin: 40px;
+  background-color: white;
+}
 
-
-    
-    /* Responsive layout - makes a two column-layout instead of four columns */
-    @media screen and (max-width: 800px) {
-      .column {
-        flex: 33%;
-        max-width: 33%;
-      }
-    }
-    
-    /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-    @media screen and (max-width: 600px) {
-      .column {
-        flex: 100%;
-        max-width: 100%;
-      }
-
-    
 }
