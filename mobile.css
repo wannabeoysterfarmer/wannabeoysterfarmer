@@ -1,0 +1,22 @@
+/*mobile and tablet*/
+@media (max-width: 1200px), (min-width: 320px) {
+  /* Fonts! */
+@font-face {
+    font-family: RockSalt;
+    src: url(Rock_Salt/RockSalt-Regular.ttf);
+  }
+  @font-face {
+    font-family: Syncopate;
+    src: url(Syncopate/Syncopate-Regular.ttf);
+  }
+  @font-face {
+    font-family: OpenDoor;
+    src: url(Roboto/Roboto-Light.ttf);
+  }
+  html {
+    background-color: rgba(0, 0, 0);
+  }
+
+}
+    
+   
