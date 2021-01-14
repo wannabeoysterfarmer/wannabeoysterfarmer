@@ -21,12 +21,32 @@
     margin-left: auto; 
     margin-right: auto;
   }
+  .imglogo {
+    width:34px; 
+    height:34px;
+  }
+  .anchor_for_logo {
+    left: 6px; 
+    top: 5px;
+  }
+  .header_font_cca {
+    font-size: 12px; 
+    padding: 6px; 
+    font-family: RockSalt;
+    text-align: center;
+  }
+  .dronephotography {
+    font-size: 16px; 
+    padding: 10px; 
+    font-family: RockSalt;
+    text-align: center;
+  }
   /* Header for titles and headings in title */
   h2 {
     text-align: center; 
     font-family: Syncopate; 
     font-size: 11px; 
-    margin: 0px; 
+    margin: 0px;
     padding: 0px;
   }
   /* Contact section headings */
@@ -207,8 +227,8 @@
   /* Responsive layout - makes a two column-layout instead of four columns */
   @media screen and (max-width: 800px) {
   .column {
-    flex: 33%;
-    max-width: 33%;
+    flex: 100%;
+    max-width: 100%;
   }
   /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
   @media screen and (max-width: 600px) {
