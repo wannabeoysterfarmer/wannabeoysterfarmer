@@ -1,5 +1,5 @@
 /*mobile and tablet*/
-@media (max-width: 1200px), (min-width: 320px) {
+@media (max-width: 8000px), (min-width: 320px) {
   /* Fonts! */
   @font-face {
     font-family: RockSalt;
