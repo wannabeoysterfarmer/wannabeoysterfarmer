@@ -20,12 +20,32 @@
     margin-left: auto; 
     margin-right: auto;
   }
+  .imglogo {
+    width:34px; 
+    height:34px;
+  }
+  .anchor_for_logo {
+    left: 6px; 
+    top: 5px;
+  }
+  .header_font_cca {
+    font-size: 12px; 
+    padding: 6px; 
+    font-family: RockSalt;
+    text-align: center;
+  }
+  .dronephotography {
+    font-size: 16px; 
+    padding: 10px; 
+    font-family: RockSalt;
+    text-align: center;
+  }
   /* Header for titles and headings in title */
   h2 {
     text-align: center; 
     font-family: Syncopate; 
     font-size: 11px; 
-    margin: 0px; 
+    margin: 0px;
     padding: 0px;
   }
   /* Contact section headings */
@@ -126,6 +146,11 @@
     margin: 0px;
     padding: 0px;
   }
+  @media screen and (max-width: 800px) {
+    .aboutparagraph {
+      flex: 100%;
+      max-width: 100%;
+    }
   /* image */
   .img {
     width: 30px;
@@ -220,4 +245,5 @@
     margin: 40px;
     background-color: white;
   }
+ 
   }

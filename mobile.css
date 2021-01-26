@@ -241,6 +241,43 @@
     vertical-align: middle;
     width: 100%;
   }
+ .gallery_image {
+  margin-top: 0px;
+  vertical-align: middle;
+  width: 100%;
+ }
+ .containerG {
+  position: relative;
+  width: 100%;
+ }
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .3s ease;
+  background-color: #000000;
+}
+.containerG:hover .overlay {
+  opacity: 0.6;
+}
+.image_text {
+  color: white;
+  font-size: 18px;
+  font-family: OpenDoor;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
   /* Responsive layout - makes a two column-layout instead of four columns */
   @media screen and (max-width: 800px) {
   .column {
