@@ -334,7 +334,6 @@
     padding: 10px;
   }
   .about_section_words {
-    
     font-family: OpenDoor;
     font-size: 14px;
     color: rgb(231, 231, 231);
@@ -342,10 +341,19 @@
     padding-right: 100px;
     line-height: 28px;
   }
+  .about_section_words_icons {
+    font-family: OpenDoor;
+    font-size: 14px;
+    color: rgb(231, 231, 231);
+    padding-left: 100px;
+    padding-right: 100px;
+    line-height: 28px;
+    align-items: center;
+  }
   .split_screen_left_about {
     width: 100px; 
     float:left; 
-    height:550px; 
+    height:500px; 
     width:40%;
     background:gray; 
     margin:0px;
@@ -361,7 +369,7 @@
   .split_screen_right_about {
     width: 100px; 
     float:left; 
-    height:550px; 
+    height:500px; 
     width: 60%;
     background:rgb(0, 0, 0); 
     margin:0px;
@@ -374,14 +382,14 @@
   }
   .contact_block {
     align-items: center;
-    
+    padding: 0px;
   }
   .group_contacts {
     align-items: center;
-    width:20%;
+    width:32%;
     margin: auto;
   }
- 
+}
  
    
    
