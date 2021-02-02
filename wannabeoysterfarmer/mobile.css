@@ -1,0 +1,395 @@
+/*mobile and tablet*/
+@media (max-width: 8000px), (min-width: 320px) {
+  /* Fonts! */
+  @font-face {
+    font-family: RockSalt;
+    src: url(Rock_Salt/RockSalt-Regular.ttf);
+  }
+  @font-face {
+    font-family: Syncopate;
+    src: url(Syncopate/Syncopate-Regular.ttf);
+  }
+  @font-face {
+    font-family: OpenDoor;
+    src: url(Roboto/Roboto-Light.ttf);
+  }
+  html {
+    background-color: rgb(0, 0, 0, 0.75);
+    width: 100%
+  }
+  /* centering things */
+  .center {
+    margin-left: auto; 
+    margin-right: auto;
+  }
+  .imglogo {
+    width:34px; 
+    height:34px;
+  }
+  .anchor_for_logo {
+    left: 6px; 
+    top: 5px;
+  }
+  .header_font_cca {
+    font-size: 12px; 
+    padding: 6px; 
+    font-family: RockSalt;
+    text-align: center;
+  }
+  .dronephotography {
+    font-size: 16px; 
+    padding: 4px; 
+    font-family: RockSalt;
+    text-align: center;
+  }
+  .slider_image {
+    height: 300px;
+    width: auto; 
+    padding: 24px;
+  }
+  @media screen and (max-width: 800px) {
+    .slider_image {
+      flex: 15%;
+      max-width: 15%;
+    }
+  }
+  /* Header for titles and headings in title */
+  h2 {
+    text-align: center; 
+    font-family: Syncopate; 
+    font-size: 11px; 
+    margin: 0px;
+    padding: 0px;
+  }
+  /* Contact section headings */
+  h3 {
+    align-items: center; 
+    position: relative; 
+    font-family: Syncopate; 
+    font-weight: bold; 
+    color: white;
+    opacity: 0.8px; 
+    font-size: 14px; 
+    padding: 0px; 
+    margin: 0px; 
+    text-align: center; 
+    margin-left: 2%;
+    margin-top: 2%;
+  }
+  /* Used for header class */   
+  .header {
+    overflow: hidden; 
+    padding: 0px; 
+    background: rgb(0, 0, 0, 0.7); 
+    position: fixed; 
+    width: 100%;
+    margin:0px; 
+    top: 0; 
+    z-index: 6;
+  }
+  #content {
+    margin-top: 60px; 
+    z-index: 1; 
+    background-color: rgb(0, 0, 0);
+  }
+  .header a {
+    float: left; 
+    color: white; 
+    text-align: center; 
+    padding: 8px; 
+    text-decoration: none; 
+    font-size: 10px;
+    line-height: 25px; 
+    border-radius: 10px;
+  }
+  /* Header left logo*/
+  .header a.logo {
+    padding: 0px; 
+    margin: 0px; 
+    font-weight: bold; 
+    color: white; 
+    font-family: RockSalt;
+  }
+  /* Change the background color of header right text on hover */
+  .header a:hover {
+    text-decoration: underline;
+    color: rgb(124, 124, 124);
+  }
+  /* left side of header */
+  .header-left {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 9px;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 25px;
+    border-radius: 10px;
+  }
+  /* Float the link section to the right */
+  .header-right {
+    float: right;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    text-decoration: none;
+    border-radius: 10px;
+  }
+  /* words like photo, video, design, etc. */
+  .header-right a {
+    font-size: 11px;
+    color:rgb(207, 207, 207);
+  }
+  /* About Header class - used for the About section */
+  .aboutheader {
+    top: 10px;
+    background: rgb(0, 0, 0);
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+  }
+  /* class used for the about paragraph words */
+  .aboutwords {
+    font-family: OpenDoor;
+    margin: 10px;
+    font-size: 14px;
+    color: rgb(231, 231, 231);
+  }
+  /* paragraph itself in about section */
+  .aboutparagraph {
+    margin: 0px;
+    padding: 0px;
+    width:100%;
+  }
+  /* image */
+  .img {
+    width: 30px;
+    height: 30px;
+    bottom: 10px; 
+    text-align: center;  
+  }
+  /* image logo */
+  .imglogo {
+    padding: 0px;
+    margin: 0px; 
+    text-align: center;  
+  }
+  /* about pic */
+  .aboutpic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 146px;
+    height: 130px;
+    padding: 52px;
+  }
+  /* main.html gallery section class */
+  .gallerysection {
+    background-color: rgb(0, 0, 0);
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+  }
+  /* showings background color */
+  .showings {
+    background-color: rgb(0, 0, 0);
+  }
+  .gallerybackground {
+    background-color:rgba(0, 0, 0);
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+  }
+  p {
+    margin: 0px;
+    padding: 0px;
+    text-align: left;
+  }
+  a {
+    position: relative; 
+    color: ghostwhite; 
+    text-align: center;
+    font-size: 12px;
+    font-family: Syncopate;
+    text-decoration: none;
+  }
+  tr {position: relative;}
+  th, td {
+    position: relative; 
+    padding: 6px;
+    color: white;
+    font-size: 15px;
+  }
+  body {
+    margin:0px;
+    width: 100%;
+  }
+  /* Gallery Image Classes */ 
+  /* --- - - - - - - - - -- - - - - - -- - - - -- - -  */
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0px;
+  }
+  .column img {
+    margin-top: 0px;
+    vertical-align: middle;
+    width: 100%;
+  }
+ .gallery_image {
+  margin-top: 0px;
+  vertical-align: middle;
+  width: 100%;
+ }
+ .containerG {
+  position: relative;
+  width: 100%;
+ }
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .3s ease;
+  background-color: #000000;
+}
+.containerG:hover .overlay {
+  opacity: 0.6;
+}
+.image_text {
+  color: white;
+  font-size: 18px;
+  font-family: OpenDoor;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+  /* contact page*/
+  .containercontact2 {
+    background-color: rgb(40, 40, 40);
+    margin: 40px;
+    padding: 30px;
+    width: 70%;
+    height: auto;
+    border-radius: 20px;
+    align-items: center;
+  }
+  .split_screen_left {
+    width: 100px; 
+    float:left; 
+    height:400px; 
+    width:50%;
+    background:gray; 
+    margin:0px
+  }
+  .split_screen_left img{
+    width:100%;
+    max-height: 400px;
+    object-fit: cover;
+    overflow: hidden;
+  }
+  .split_screen_right {
+    width: 100px; 
+    float:left; 
+    height:400px; 
+    width: 50%;
+    background:rgb(34, 34, 34); 
+    margin:0px;
+    align-items: center;
+    vertical-align: middle;
+  }
+  #wrap_text_gallery {
+    padding-top: 0px;
+    padding-left: 36px;
+    padding-right: 36px;
+    font-family: OpenDoor;
+    line-height: 28px;
+    font-size: 14px;
+    color: white;
+    opacity: 0.9;
+  }
+  .gallery_title {
+    padding-top: 14%;
+    padding-bottom: 10px;
+    color: white;
+    font-size: 18px;
+    font-family: RockSalt;
+    margin: 0px;
+    text-align: center;
+  }
+  .whole_gallery {
+    padding: 50px;
+  }
+  .about_section_words {
+    font-family: OpenDoor;
+    font-size: 14px;
+    color: rgb(231, 231, 231);
+    padding-left: 100px;
+    padding-right: 100px;
+    line-height: 28px;
+  }
+  .about_section_words_icons {
+    font-family: OpenDoor;
+    font-size: 14px;
+    color: rgb(231, 231, 231);
+    padding-left: 100px;
+    padding-right: 100px;
+    line-height: 28px;
+    align-items: center;
+  }
+  .split_screen_left_about {
+    width: 100px; 
+    float:left; 
+    height:500px; 
+    width:40%;
+    background:gray; 
+    margin:0px;
+    align-items: center;
+    background: rgb(0, 0, 0);
+  }
+  .split_screen_left_about img{
+    width:100%;
+    max-height: 400px;
+    object-fit: cover;
+    overflow: hidden;
+  }
+  .split_screen_right_about {
+    width: 100px; 
+    float:left; 
+    height:500px; 
+    width: 60%;
+    background:rgb(0, 0, 0); 
+    margin:0px;
+    align-items: center;
+    vertical-align: middle;
+  }
+  #contact_items {
+    display: inline-block;
+    align-items: center;
+  }
+  .contact_block {
+    align-items: center;
+    padding: 0px;
+  }
+  .group_contacts {
+    align-items: center;
+    width:28%;
+    margin: auto;
+  }
+}
+ 
+   
+   
