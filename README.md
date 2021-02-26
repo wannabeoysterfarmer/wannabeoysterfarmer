@@ -1,6 +1,4 @@
-### 
-
-This is my personal webpage for my photography. Hope you enjoy the art!
+### Hi there 👋
 
 <!--
 **wannabeoysterfarmer/wannabeoysterfarmer** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
