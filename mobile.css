@@ -250,7 +250,7 @@
   position: relative;
   width: 100%;
  }
-.overlay {
+.overlay { /* unnecessary now */
   position: absolute;
   top: 0;
   bottom: 0;
@@ -389,6 +389,14 @@
     width:28%;
     margin: auto;
   }
+  .photo_paragraph{
+    margin-right: 18%;
+    margin-left: 20%;
+    font-family: OpenDoor;
+    font-size: 14px;
+    padding: 10px;
+  }
+
 }
  
    
