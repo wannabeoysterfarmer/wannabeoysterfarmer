@@ -1,4 +1,4 @@
-/*mobile and tablet*/
+/*all*/
 @media (max-width: 8000px), (min-width: 320px) {
   /* Fonts! */
   @font-face {
@@ -222,7 +222,9 @@
   }
   body {
     margin:0px;
+    padding: 0px;
     width: 100%;
+    position: absolute;
   }
   /* Gallery Image Classes */ 
   /* --- - - - - - - - - -- - - - - - -- - - - -- - -  */
